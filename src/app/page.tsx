@@ -2,7 +2,7 @@ import { CallRust } from './page.client'
 
 export default function Home() {
   return (
-    <main className="container mx-auto">
+    <main className="container py-4">
       <CallRust />
     </main>
   )

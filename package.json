@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "build": "next build",
+    "build:tauri": "tauri build",
     "dev": "next dev --turbopack",
+    "dev:tauri": "tauri dev",
     "format": "prettier --check . --cache",
     "format:fix": "prettier --check . --cache --write",
     "lint": "next lint",
@@ -15,7 +17,9 @@
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.2",
+    "@standard-schema/spec": "^1.0.0",
     "@tauri-apps/api": "^2.4.1",
+    "arktype": "^2.1.16",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.487.0",
@@ -23,6 +27,7 @@
     "next-themes": "^0.4.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "sonner": "^2.0.3",
     "tailwind-merge": "^3.1.0",
     "tw-animate-css": "^1.2.5"
   },
